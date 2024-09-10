@@ -1,19 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
     <link rel="stylesheet" href="css/global.css">
-    <title>Document</title>
 </head>
 <body>
-    <h1>Home</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/sobre.html">Sobre</a></li>
-            <li><a href="pages/contato.html">Contato</a></li>
-        </ul>
-    </nav>
+    <header class="site-header">
+        <h1 class="site-title">Meu Site</h1>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"> <a href="./pages/sobre.html" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="pages/contato.html" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="main-content">
+        <article class="article">
+            <header class="article-header">
+                <h2 class="article-title">
+                    Bem Vindo ao Meu Site
+                </h2>
+                <p class="section-text">Texto aleatorio na aula de marcação web!</p>
+            </header>
+       
+        <section class="article-content">
+            <h3 class="section-title">Introdução</h3>
+            <p class="section-text">Conteudo do site</p>
+
+
+        <figure class="image-figure">
+            <img src="img/totoro.jpg" alt="totoro" class="article-image">
+            <figcaption class="image-caption">Tototro</figcaption>
+        </figure>
+
+
+        <audio controls class="auido-player">
+            <source src="./media/audio.mp3" type="audio/mp3">Seu navegador não suporta o elemento
+            <code>audio</code>.
+        </audio>
+        </section>
+
+
+        <footer class="article-footer">
+            <p class="section-text">Texto de rodape do artigo</p>
+        </footer>
+        </article>
+        <aside class="sidebar">
+            <h2 class="sidebar-title">Informações adicionais</h2>
+            <p class="section-text">Texto aleatorio na aula de marcação web</p>
+        </aside>
+    </main>
+    <footer class="site-footer">
+        <address class="contact-info">
+            <p class="author-name">Autor: Matheus Stella do Couto</p>
+            <p class="author-email">Email: <a href="mailto:sscouto08@gmail.com" class="email-link">sscouto08@gmail.com</a></p>
+        </address>
+        <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
+    </footer>
+   
 </body>
 </html>
